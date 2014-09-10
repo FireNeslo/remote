@@ -1,5 +1,6 @@
 {
   "name": "nslo-remote",
+  "title": "remote",
   "version": "0.0.0",
   "author": "Øystein Ø. Olsen <fireneslo@gmail.com>",
   "description": "Will let you manipulate remote objects",

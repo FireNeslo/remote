@@ -92,7 +92,7 @@ gulp.task('docs', function () {
 gulp.task('build', ['test','clean', 'docs'], function () {
   var bundler = browserify({
     entries: [pkg.main],
-    standalone: pkg.name
+    standalone: pkg.title
   });
 
   var bundle = function() {
