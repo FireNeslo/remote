@@ -1,0 +1,41 @@
+{
+  "name": "nslo-remote",
+  "version": "0.0.0",
+  "author": "Øystein Ø. Olsen <fireneslo@gmail.com>",
+  "description": "Will let you manipulate remote objects",
+  "repository" : "FireNeslo/remote",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "devDependencies": {
+    "browserify": "^5.11.1",
+    "chai": "^1.9.1",
+    "gulp": "^3.8.7",
+    "gulp-bump": "^0.1.11",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.4.0",
+    "gulp-footer": "^1.0.5",
+    "gulp-git": "^0.5.0",
+    "gulp-header": "^1.0.5",
+    "gulp-jshint": "^1.8.4",
+    "gulp-markdox": "^0.1.0",
+    "gulp-mocha": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-size": "^1.1.0",
+    "gulp-sourcemaps": "^1.1.4",
+    "gulp-uglify": "^1.0.1",
+    "jshint-stylish": "^0.4.0",
+    "mocha": "^1.21.4",
+    "vinyl-buffer": "0.0.0",
+    "vinyl-source-stream": "^0.1.1"
+  }
+}
